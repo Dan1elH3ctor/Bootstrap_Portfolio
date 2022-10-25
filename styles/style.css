@@ -1,0 +1,19 @@
+/* remove hyperlink underline */
+.navbar a {
+    text-decoration: none;
+    color: darkseagreen;
+}
+/* logo sizing */
+.image {
+    width: 15rem !important;
+}
+/* image sizing projects */
+.portfolio img, .lifechoices img {
+    width: 7rem;
+}
+/* project images appear linear */
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+/* skillbar animation */

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-B">
+    <meta http-equiv="X-UA-compatible" content="It-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Portfolio</title>
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="https://i.postimg.cc/Gm4Rjm9t/skull-gaming-with-joy-stick-emblem-modern-style-32991-492.webp" type="image/x-icon">
+</head>
+<body>
+    <header>
+            <!-- navbar -->
+            <nav class="navbar bg-danger list-unstyled">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                        <img src="https://i.postimg.cc/Gm4Rjm9t/skull-gaming-with-joy-stick-emblem-modern-style-32991-492.webp" alt="Logo" width="80" height="80" class="d-inline-block align-text-top img-thumbnail">
+                  </a>
+                  <li><a href="#Home">Home</a></li>|
+                  <li><a href="#Resume">Resume</a></li>|
+                  <li><a href="#Project">Project</a></li>|
+                  <li><a href="#Skills">Skills</a></li>|
+                  <li><a href="#Contact">Contact</a></li>|
+                </div>
+            </nav>
+    </header>
+    <main class="body text-center">
+        <!--Home-->
+        <section class="container">
+            <h1 id="Home">Home</h1>
+            <div>
+                <img class="image img-fluid bg" src="https://i.postimg.cc/Pxk01QX4/Daniel.jpg" alt="Daniel">
+                <h2>Daniel Hector</h2>
+                <h3>Aspiring Developer</h3>
+                <p class="lead text-muted">
+                    <b>About</b><br>
+                     I am a self-taught artist. my interest in art started at the age of 6<br> when I first laid eyes on my brother's artworks. He is "naturally talented",<br> whereas I started out tracing before I dived into freehand drawing. Through the years<br> my skills gradually improved with accuracy and realism. I have dabbled in many mediums<br> i.e. pencil drawing, painting (acrylic, oil & gouache paints), clay sculpting, wood carving<br> and digital drawing/painting.<br>My interest in coding started with my love for gaming. Seeing how gaming graphics and capabilities<br> have improved drew me towards learning how the final product is put together.<br> It was then that i realised if i wanted to play any part in game design i would need coding skills.
+                </p>
+            </div>
+        </section>
+        <!--Resume-->
+        <section class="container">
+            <h1 id="Resume"><u>Resume</u></h1>
+            <p>
+                <strong>Education:</strong><br>
+                <em>Lotus High school</em> - January 2008-December 2013 (admission to bachelors)<br>
+                <br>
+                <strong>Work Experience:</strong><br>
+                <em>St George's Grammar School  Prepatory Art Department</em> Classroom Assistant - July 2017-December 2019<br>
+                Duties: Setup & preparation of all classes, grade pre R to grade 7, including classroom management.<br> Assisting with planning lessons for each term, study notes and formal assessments for intermediate phase students.<br>
+                <br>
+                <em>St George's Grammar School  Prepatory Art Department</em> Part-time Assistant - March 2020-September 2021<br>
+                During lockdown of 2020 I was personally requested and employed by the Prepatory Art Teacher at the time; Tami-Lee Kleinsmith
+                to assist with the transition to online learning.<br> My responsibilities remained the same as when i was employed full time for the school only now adapting it for online learning so that students could access lessons through the internet.<br>
+            </p>
+            <div>
+                <!-- skillbar -->
+                <h4 id="Skills">Skills</h4>
+                <body>
+                    <div class="container">
+                        <h1>My Skills</h1>
+                        <div class="bar html5" data-skill="HTML5"></div>
+                        <div class="bar CSS" data-skill="CSS"></div>
+                        <div class="bar Bootstrap" data-skill="Bootstrap"></div>
+                    </div>
+            </div>
+        </section>
+        <!--Project-->
+        <section class="container">
+            <h1 id="Project"><u>Project</u></h1>
+            <p>
+                Here are some Projects I am working on!
+            </p>
+            <section class="projects">
+                <div class="portfolio">
+                    <h4>Portfolio</h4>
+                    <a href="https://github.com/Dan1elH3ctor/Portfolio" target="_blank"><img src="https://i.postimg.cc/Gm4Rjm9t/skull-gaming-with-joy-stick-emblem-modern-style-32991-492.webp" alt=""></a>
+                </div>
+                <div class="lifechoices">
+                    <h4>LifeChoices</h4>
+                    <a href="https://github.com/Dan1elH3ctor/LifeChoices" target="_blank"><img src="https://i.postimg.cc/HLwDjhwz/Screenshot-5.png" alt=""></a>
+                </div>
+            </section>
+        </section>
+        <!--Contact-->
+        <section class="container">
+            <h1 id="Contact"><u>Contact</u></h1>
+            <div>
+                <form action="https://formspree.io/f/mvoyrloq" method="post">
+                    <div>
+                        <label for="#firstname">Name</label>
+                        <input style="margin-left: 5px;" class="firstname mb-1" name="firstName" type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div>
+                        <label for="#surname">Surname</label>
+                        <input style="margin-left: 5px;" class="surname mb-1" name="surname" type="text" placeholder="Enter your surname" required>
+                    </div>
+                    <div>
+                        <label for="#message">Message</label>
+                        <textarea class="message mb-1" name="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+<footer class="footer bg-danger text-center text-capitalize mt-1">
+    copyright &copy; 2022
+</footer>
